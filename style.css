@@ -1,0 +1,80 @@
+body{
+    background: #2f2e2e;
+    color: white;
+}
+
+.imgResilia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
+
+.titulo{
+    text-align: center;
+    font-family: montserrat,sans-serif;
+}
+
+.texto{
+    display:inline-block;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: montserrat,sans-serif;
+}
+
+.aprender{
+   background-color: #FAD100;
+   color: black;
+}
+
+
+p{
+    text-align: justify;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin: 0 auto;
+    width: 20%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em; 
+    background-color: #FAD000;   
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    text-align: center;
+    display: block;
+    width: auto;
+    padding: 1%;
+    color:black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+input:focus{
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+.button {
+    padding-left: 110px; 
+}
+button {
+    margin-left: .5em;
+}
